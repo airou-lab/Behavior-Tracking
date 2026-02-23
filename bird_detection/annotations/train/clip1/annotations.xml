@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>8</id>
+      <name>05302024_GoPro3_clip1</name>
+      <size>151</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-02-09 03:30:39.093347+00:00</created>
+      <updated>2026-02-09 03:56:40.543731+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>150</stop_frame>
+      <frame_filter>step=1</frame_filter>
+      <segments>
+        <segment>
+          <id>8</id>
+          <start>0</start>
+          <stop>150</stop>
+          <url>http://localhost:8080/api/tasks/8/dataset/export/api/jobs/8</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>gladis1999</username>
+        <email>gladisms1999@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Bird</name>
+          <color>#404040</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Behavior</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>in_box</default_value>
+              <values>in_box
+on_box
+at_hole
+side-by-side
+grapple
+lunge</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2026-02-10 17:23:17.630732+00:00</dumped>
+  </meta>
+  <track id="0" label="Bird" source="manual">
+    <box frame="0" keyframe="1" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="1" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="2" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="3" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="4" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="5" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="6" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="7" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="8" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="9" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="10" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="11" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="12" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="13" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="14" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="15" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="16" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="17" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="18" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="19" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="20" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="21" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="22" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="23" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="24" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="25" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="26" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="27" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="28" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="29" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="30" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="31" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="32" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="33" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="34" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="35" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="36" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="37" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="38" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="39" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="40" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="41" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="42" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="43" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="44" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="45" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="46" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="47" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="48" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="49" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="50" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="51" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="52" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="53" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="54" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="55" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="56" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="57" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="58" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="59" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="60" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="61" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="62" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="63" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="64" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="65" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="66" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="67" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="68" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="69" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="70" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="71" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="72" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="73" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="74" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="75" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="76" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="77" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="78" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="79" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="80" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="81" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="82" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="83" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="84" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="85" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="86" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="87" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="88" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="89" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="90" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="91" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="92" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="93" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="94" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="95" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="96" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="97" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="98" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="99" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="100" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="101" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="102" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="103" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="104" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="105" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="106" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="107" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="108" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="109" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="110" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="111" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="112" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="113" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="114" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="115" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="116" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="117" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="118" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="119" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="120" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="121" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="122" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="123" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="124" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="125" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="126" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="127" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="128" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="129" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="130" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="131" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="132" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="133" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="134" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="135" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="136" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="137" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="138" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="139" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="140" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="141" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="142" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="143" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="144" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="145" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="146" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="147" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="148" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="149" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="150" keyframe="0" outside="0" occluded="0" xtl="1714.10" ytl="364.59" xbr="1822.80" ybr="421.10" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+  </track>
+  <track id="1" label="Bird" source="manual">
+    <box frame="0" keyframe="1" outside="0" occluded="0" xtl="1223.50" ytl="109.43" xbr="1257.41" ybr="142.90" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="1" keyframe="0" outside="0" occluded="0" xtl="1223.57" ytl="109.93" xbr="1257.78" ybr="142.29" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="2" keyframe="0" outside="0" occluded="0" xtl="1223.64" ytl="110.42" xbr="1258.15" ybr="141.67" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="3" keyframe="0" outside="0" occluded="0" xtl="1223.71" ytl="110.92" xbr="1258.52" ybr="141.06" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="4" keyframe="0" outside="0" occluded="0" xtl="1223.79" ytl="111.41" xbr="1258.89" ybr="140.44" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="5" keyframe="0" outside="0" occluded="0" xtl="1223.86" ytl="111.91" xbr="1259.26" ybr="139.83" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="6" keyframe="0" outside="0" occluded="0" xtl="1223.93" ytl="112.40" xbr="1259.63" ybr="139.21" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="7" keyframe="1" outside="0" occluded="0" xtl="1224.00" ytl="112.90" xbr="1260.00" ybr="138.60" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="8" keyframe="1" outside="0" occluded="0" xtl="1222.40" ytl="110.80" xbr="1260.00" ybr="139.30" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="9" keyframe="1" outside="0" occluded="0" xtl="1222.10" ytl="107.30" xbr="1258.60" ybr="140.00" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="10" keyframe="1" outside="0" occluded="0" xtl="1221.90" ytl="102.50" xbr="1257.20" ybr="141.70" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="11" keyframe="0" outside="0" occluded="0" xtl="1221.84" ytl="102.52" xbr="1257.05" ybr="141.27" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="12" keyframe="0" outside="0" occluded="0" xtl="1221.77" ytl="102.53" xbr="1256.89" ybr="140.84" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="13" keyframe="0" outside="0" occluded="0" xtl="1221.71" ytl="102.55" xbr="1256.74" ybr="140.41" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="14" keyframe="0" outside="0" occluded="0" xtl="1221.65" ytl="102.56" xbr="1256.58" ybr="139.98" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="15" keyframe="0" outside="0" occluded="0" xtl="1221.59" ytl="102.58" xbr="1256.43" ybr="139.55" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="16" keyframe="0" outside="0" occluded="0" xtl="1221.52" ytl="102.59" xbr="1256.28" ybr="139.12" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="17" keyframe="0" outside="0" occluded="0" xtl="1221.46" ytl="102.61" xbr="1256.12" ybr="138.69" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="18" keyframe="0" outside="0" occluded="0" xtl="1221.40" ytl="102.63" xbr="1255.97" ybr="138.26" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="19" keyframe="0" outside="0" occluded="0" xtl="1221.33" ytl="102.64" xbr="1255.82" ybr="137.83" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="20" keyframe="0" outside="0" occluded="0" xtl="1221.27" ytl="102.66" xbr="1255.66" ybr="137.40" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="21" keyframe="1" outside="0" occluded="0" xtl="1221.21" ytl="102.67" xbr="1255.51" ybr="136.97" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="22" keyframe="0" outside="0" occluded="0" xtl="1221.21" ytl="102.67" xbr="1255.51" ybr="137.88" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="23" keyframe="0" outside="0" occluded="0" xtl="1221.20" ytl="102.67" xbr="1255.51" ybr="138.79" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="24" keyframe="1" outside="0" occluded="0" xtl="1221.20" ytl="102.67" xbr="1255.51" ybr="139.70" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="25" keyframe="1" outside="0" occluded="0" xtl="1220.85" ytl="103.71" xbr="1255.16" ybr="140.74" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="26" keyframe="1" outside="0" occluded="0" xtl="1220.85" ytl="103.00" xbr="1255.50" ybr="140.74" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="27" keyframe="1" outside="0" occluded="0" xtl="1220.20" ytl="103.00" xbr="1253.60" ybr="141.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="28" keyframe="0" outside="0" occluded="0" xtl="1220.20" ytl="103.00" xbr="1253.60" ybr="141.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="29" keyframe="0" outside="0" occluded="0" xtl="1220.20" ytl="103.00" xbr="1253.60" ybr="141.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="30" keyframe="0" outside="0" occluded="0" xtl="1220.20" ytl="103.00" xbr="1253.60" ybr="141.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="31" keyframe="0" outside="0" occluded="0" xtl="1220.20" ytl="103.00" xbr="1253.60" ybr="141.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="32" keyframe="0" outside="0" occluded="0" xtl="1220.20" ytl="103.00" xbr="1253.60" ybr="141.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="33" keyframe="1" outside="1" occluded="0" xtl="1220.20" ytl="103.00" xbr="1253.60" ybr="141.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+  </track>
+  <track id="2" label="Bird" source="manual">
+    <box frame="0" keyframe="1" outside="0" occluded="0" xtl="1263.93" ytl="101.17" xbr="1286.95" ybr="132.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="1" keyframe="0" outside="0" occluded="0" xtl="1263.93" ytl="101.89" xbr="1286.95" ybr="132.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="2" keyframe="0" outside="0" occluded="0" xtl="1263.93" ytl="102.62" xbr="1286.95" ybr="132.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="3" keyframe="0" outside="0" occluded="0" xtl="1263.93" ytl="103.35" xbr="1286.95" ybr="132.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="4" keyframe="0" outside="0" occluded="0" xtl="1263.93" ytl="104.07" xbr="1286.95" ybr="132.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="5" keyframe="1" outside="0" occluded="0" xtl="1263.93" ytl="104.80" xbr="1286.95" ybr="132.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="6" keyframe="0" outside="0" occluded="0" xtl="1263.80" ytl="104.69" xbr="1287.42" ybr="132.08" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="7" keyframe="0" outside="0" occluded="0" xtl="1263.66" ytl="104.58" xbr="1287.88" ybr="132.13" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="8" keyframe="0" outside="0" occluded="0" xtl="1263.53" ytl="104.48" xbr="1288.35" ybr="132.18" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="9" keyframe="0" outside="0" occluded="0" xtl="1263.40" ytl="104.37" xbr="1288.81" ybr="132.23" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="10" keyframe="0" outside="0" occluded="0" xtl="1263.26" ytl="104.26" xbr="1289.28" ybr="132.29" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="11" keyframe="0" outside="0" occluded="0" xtl="1263.13" ytl="104.15" xbr="1289.74" ybr="132.34" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="12" keyframe="0" outside="0" occluded="0" xtl="1263.00" ytl="104.05" xbr="1290.21" ybr="132.39" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="13" keyframe="0" outside="0" occluded="0" xtl="1262.86" ytl="103.94" xbr="1290.67" ybr="132.44" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="14" keyframe="0" outside="0" occluded="0" xtl="1262.73" ytl="103.83" xbr="1291.14" ybr="132.49" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="15" keyframe="0" outside="0" occluded="0" xtl="1262.60" ytl="103.72" xbr="1291.60" ybr="132.54" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="16" keyframe="0" outside="0" occluded="0" xtl="1262.47" ytl="103.62" xbr="1292.07" ybr="132.60" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="17" keyframe="0" outside="0" occluded="0" xtl="1262.33" ytl="103.51" xbr="1292.53" ybr="132.65" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="18" keyframe="1" outside="0" occluded="0" xtl="1262.20" ytl="103.40" xbr="1293.00" ybr="132.70" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="19" keyframe="1" outside="0" occluded="0" xtl="1259.95" ytl="103.90" xbr="1290.20" ybr="132.18" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="20" keyframe="1" outside="0" occluded="0" xtl="1259.78" ytl="104.77" xbr="1284.63" ybr="133.05" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="21" keyframe="1" outside="0" occluded="0" xtl="1257.72" ytl="106.15" xbr="1288.62" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="22" keyframe="0" outside="0" occluded="0" xtl="1257.72" ytl="105.91" xbr="1288.62" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="23" keyframe="0" outside="0" occluded="0" xtl="1257.72" ytl="105.66" xbr="1288.62" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="24" keyframe="0" outside="0" occluded="0" xtl="1257.72" ytl="105.42" xbr="1288.62" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="25" keyframe="0" outside="0" occluded="0" xtl="1257.72" ytl="105.18" xbr="1288.62" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="26" keyframe="0" outside="0" occluded="0" xtl="1257.72" ytl="104.93" xbr="1288.62" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="27" keyframe="0" outside="0" occluded="0" xtl="1257.72" ytl="104.69" xbr="1288.62" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="28" keyframe="0" outside="0" occluded="0" xtl="1257.72" ytl="104.44" xbr="1288.62" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="29" keyframe="1" outside="0" occluded="0" xtl="1257.72" ytl="104.20" xbr="1288.62" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="30" keyframe="1" outside="0" occluded="0" xtl="1257.72" ytl="103.50" xbr="1288.62" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="31" keyframe="0" outside="0" occluded="0" xtl="1256.54" ytl="103.44" xbr="1288.99" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="32" keyframe="0" outside="0" occluded="0" xtl="1255.35" ytl="103.38" xbr="1289.37" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="33" keyframe="0" outside="0" occluded="0" xtl="1254.17" ytl="103.32" xbr="1289.75" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="34" keyframe="0" outside="0" occluded="0" xtl="1252.98" ytl="103.26" xbr="1290.12" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="35" keyframe="1" outside="0" occluded="0" xtl="1251.80" ytl="103.20" xbr="1290.50" ybr="134.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="36" keyframe="1" outside="0" occluded="0" xtl="1236.92" ytl="114.67" xbr="1277.35" ybr="137.72" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="37" keyframe="1" outside="0" occluded="0" xtl="1231.38" ytl="113.80" xbr="1271.82" ybr="136.85" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="38" keyframe="1" outside="0" occluded="0" xtl="1231.38" ytl="113.80" xbr="1274.60" ybr="136.85" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="39" keyframe="1" outside="0" occluded="0" xtl="1231.38" ytl="113.80" xbr="1275.30" ybr="136.85" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="40" keyframe="1" outside="0" occluded="0" xtl="1231.38" ytl="110.20" xbr="1275.00" ybr="136.85" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="41" keyframe="0" outside="0" occluded="0" xtl="1231.20" ytl="110.29" xbr="1274.83" ybr="136.94" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="42" keyframe="1" outside="0" occluded="0" xtl="1231.03" ytl="110.37" xbr="1274.65" ybr="137.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="43" keyframe="0" outside="0" occluded="0" xtl="1231.03" ytl="109.73" xbr="1274.65" ybr="137.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="44" keyframe="0" outside="0" occluded="0" xtl="1231.03" ytl="109.09" xbr="1274.65" ybr="137.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="45" keyframe="0" outside="0" occluded="0" xtl="1231.03" ytl="108.44" xbr="1274.65" ybr="137.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="46" keyframe="1" outside="0" occluded="0" xtl="1231.03" ytl="107.80" xbr="1274.65" ybr="137.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="47" keyframe="0" outside="0" occluded="0" xtl="1231.84" ytl="108.07" xbr="1274.78" ybr="137.01" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="48" keyframe="0" outside="0" occluded="0" xtl="1232.65" ytl="108.34" xbr="1274.90" ybr="136.98" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="49" keyframe="0" outside="0" occluded="0" xtl="1233.47" ytl="108.61" xbr="1275.03" ybr="136.96" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="50" keyframe="0" outside="0" occluded="0" xtl="1234.28" ytl="108.89" xbr="1275.15" ybr="136.94" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="51" keyframe="0" outside="0" occluded="0" xtl="1235.09" ytl="109.16" xbr="1275.28" ybr="136.92" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="52" keyframe="1" outside="0" occluded="0" xtl="1235.90" ytl="109.43" xbr="1275.40" ybr="136.90" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="53" keyframe="1" outside="0" occluded="0" xtl="1233.63" ytl="109.70" xbr="1276.70" ybr="137.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="54" keyframe="1" outside="0" occluded="0" xtl="1234.00" ytl="116.10" xbr="1277.80" ybr="137.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="55" keyframe="1" outside="1" occluded="0" xtl="1234.00" ytl="116.10" xbr="1277.80" ybr="137.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+  </track>
+  <track id="3" label="Bird" source="manual">
+    <box frame="54" keyframe="1" outside="0" occluded="0" xtl="1236.37" ytl="107.66" xbr="1258.09" ybr="125.70" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="55" keyframe="1" outside="0" occluded="0" xtl="1241.60" ytl="107.66" xbr="1258.09" ybr="125.70" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="56" keyframe="1" outside="0" occluded="0" xtl="1231.10" ytl="106.70" xbr="1260.60" ybr="134.70" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="57" keyframe="1" outside="0" occluded="0" xtl="1236.28" ytl="102.86" xbr="1265.78" ybr="130.86" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="58" keyframe="1" outside="0" occluded="0" xtl="1261.63" ytl="105.57" xbr="1283.63" ybr="129.18" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="59" keyframe="1" outside="0" occluded="0" xtl="1269.20" ytl="108.10" xbr="1286.80" ybr="129.52" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="60" keyframe="1" outside="0" occluded="0" xtl="1273.38" ytl="108.77" xbr="1290.98" ybr="130.19" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="61" keyframe="0" outside="0" occluded="0" xtl="1273.85" ytl="107.93" xbr="1292.62" ybr="129.85" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="62" keyframe="0" outside="0" occluded="0" xtl="1274.33" ytl="107.09" xbr="1294.27" ybr="129.51" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="63" keyframe="0" outside="0" occluded="0" xtl="1274.80" ytl="106.25" xbr="1295.92" ybr="129.16" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="64" keyframe="0" outside="0" occluded="0" xtl="1275.28" ytl="105.42" xbr="1297.57" ybr="128.82" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="65" keyframe="0" outside="0" occluded="0" xtl="1275.75" ytl="104.58" xbr="1299.21" ybr="128.48" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="66" keyframe="0" outside="0" occluded="0" xtl="1276.23" ytl="103.74" xbr="1300.86" ybr="128.14" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="67" keyframe="1" outside="0" occluded="0" xtl="1276.70" ytl="102.90" xbr="1302.51" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="68" keyframe="0" outside="0" occluded="0" xtl="1276.70" ytl="102.90" xbr="1303.01" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="69" keyframe="0" outside="0" occluded="0" xtl="1276.70" ytl="102.90" xbr="1303.51" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="70" keyframe="0" outside="0" occluded="0" xtl="1276.70" ytl="102.90" xbr="1304.00" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="71" keyframe="0" outside="0" occluded="0" xtl="1276.70" ytl="102.90" xbr="1304.50" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="72" keyframe="1" outside="0" occluded="0" xtl="1276.70" ytl="102.90" xbr="1305.00" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="73" keyframe="1" outside="0" occluded="0" xtl="1276.70" ytl="102.90" xbr="1303.30" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="74" keyframe="0" outside="0" occluded="0" xtl="1276.70" ytl="102.76" xbr="1303.77" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="75" keyframe="0" outside="0" occluded="0" xtl="1276.70" ytl="102.61" xbr="1304.23" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="76" keyframe="0" outside="0" occluded="0" xtl="1276.70" ytl="102.47" xbr="1304.70" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="77" keyframe="0" outside="0" occluded="0" xtl="1276.70" ytl="102.32" xbr="1305.17" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="78" keyframe="0" outside="0" occluded="0" xtl="1276.70" ytl="102.18" xbr="1305.63" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="79" keyframe="0" outside="0" occluded="0" xtl="1276.70" ytl="102.03" xbr="1306.10" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="80" keyframe="0" outside="0" occluded="0" xtl="1276.70" ytl="101.89" xbr="1306.57" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="81" keyframe="0" outside="0" occluded="0" xtl="1276.70" ytl="101.74" xbr="1307.03" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="82" keyframe="1" outside="0" occluded="0" xtl="1276.70" ytl="101.60" xbr="1307.50" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="83" keyframe="0" outside="0" occluded="0" xtl="1276.70" ytl="100.50" xbr="1308.85" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="84" keyframe="1" outside="0" occluded="0" xtl="1276.70" ytl="99.40" xbr="1310.20" ybr="127.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="85" keyframe="1" outside="0" occluded="0" xtl="1275.86" ytl="96.73" xbr="1309.37" ybr="125.13" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="86" keyframe="1" outside="0" occluded="0" xtl="1278.50" ytl="98.70" xbr="1309.37" ybr="125.13" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="87" keyframe="0" outside="0" occluded="0" xtl="1280.35" ytl="99.05" xbr="1309.37" ybr="125.13" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="88" keyframe="1" outside="0" occluded="0" xtl="1282.20" ytl="99.40" xbr="1309.37" ybr="125.13" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="89" keyframe="0" outside="0" occluded="0" xtl="1282.28" ytl="99.38" xbr="1309.14" ybr="125.60" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="90" keyframe="0" outside="0" occluded="0" xtl="1282.36" ytl="99.36" xbr="1308.91" ybr="126.08" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="91" keyframe="0" outside="0" occluded="0" xtl="1282.44" ytl="99.34" xbr="1308.68" ybr="126.55" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="92" keyframe="0" outside="0" occluded="0" xtl="1282.52" ytl="99.32" xbr="1308.45" ybr="127.03" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="93" keyframe="0" outside="0" occluded="0" xtl="1282.60" ytl="99.30" xbr="1308.22" ybr="127.51" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="94" keyframe="0" outside="0" occluded="0" xtl="1282.67" ytl="99.28" xbr="1307.99" ybr="127.98" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="95" keyframe="0" outside="0" occluded="0" xtl="1282.75" ytl="99.25" xbr="1307.76" ybr="128.46" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="96" keyframe="1" outside="0" occluded="0" xtl="1282.83" ytl="99.23" xbr="1307.53" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="97" keyframe="0" outside="0" occluded="0" xtl="1282.83" ytl="99.23" xbr="1307.86" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="98" keyframe="0" outside="0" occluded="0" xtl="1282.83" ytl="99.23" xbr="1308.19" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="99" keyframe="0" outside="0" occluded="0" xtl="1282.83" ytl="99.23" xbr="1308.52" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="100" keyframe="0" outside="0" occluded="0" xtl="1282.83" ytl="99.23" xbr="1308.84" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="101" keyframe="0" outside="0" occluded="0" xtl="1282.83" ytl="99.23" xbr="1309.17" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="102" keyframe="1" outside="0" occluded="0" xtl="1282.83" ytl="99.23" xbr="1309.50" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="103" keyframe="0" outside="0" occluded="0" xtl="1283.10" ytl="99.34" xbr="1309.50" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="104" keyframe="0" outside="0" occluded="0" xtl="1283.37" ytl="99.45" xbr="1309.50" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="105" keyframe="0" outside="0" occluded="0" xtl="1283.65" ytl="99.56" xbr="1309.50" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="106" keyframe="0" outside="0" occluded="0" xtl="1283.92" ytl="99.67" xbr="1309.50" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="107" keyframe="0" outside="0" occluded="0" xtl="1284.19" ytl="99.78" xbr="1309.50" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="108" keyframe="0" outside="0" occluded="0" xtl="1284.46" ytl="99.88" xbr="1309.50" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="109" keyframe="0" outside="0" occluded="0" xtl="1284.73" ytl="99.99" xbr="1309.50" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="110" keyframe="1" outside="0" occluded="0" xtl="1285.00" ytl="100.10" xbr="1309.50" ybr="128.93" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="111" keyframe="0" outside="0" occluded="0" xtl="1284.93" ytl="100.10" xbr="1309.50" ybr="128.86" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="112" keyframe="0" outside="0" occluded="0" xtl="1284.86" ytl="100.10" xbr="1309.50" ybr="128.79" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="113" keyframe="0" outside="0" occluded="0" xtl="1284.80" ytl="100.10" xbr="1309.50" ybr="128.72" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="114" keyframe="0" outside="0" occluded="0" xtl="1284.73" ytl="100.10" xbr="1309.50" ybr="128.65" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="115" keyframe="0" outside="0" occluded="0" xtl="1284.66" ytl="100.10" xbr="1309.50" ybr="128.58" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="116" keyframe="0" outside="0" occluded="0" xtl="1284.59" ytl="100.10" xbr="1309.50" ybr="128.51" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="117" keyframe="0" outside="0" occluded="0" xtl="1284.53" ytl="100.10" xbr="1309.50" ybr="128.43" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="118" keyframe="0" outside="0" occluded="0" xtl="1284.46" ytl="100.10" xbr="1309.50" ybr="128.36" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="119" keyframe="0" outside="0" occluded="0" xtl="1284.39" ytl="100.10" xbr="1309.50" ybr="128.29" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="120" keyframe="0" outside="0" occluded="0" xtl="1284.32" ytl="100.10" xbr="1309.50" ybr="128.22" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="121" keyframe="0" outside="0" occluded="0" xtl="1284.26" ytl="100.10" xbr="1309.50" ybr="128.15" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="122" keyframe="0" outside="0" occluded="0" xtl="1284.19" ytl="100.10" xbr="1309.50" ybr="128.08" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="123" keyframe="0" outside="0" occluded="0" xtl="1284.12" ytl="100.10" xbr="1309.50" ybr="128.01" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="124" keyframe="0" outside="0" occluded="0" xtl="1284.05" ytl="100.10" xbr="1309.50" ybr="127.94" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="125" keyframe="0" outside="0" occluded="0" xtl="1283.99" ytl="100.10" xbr="1309.50" ybr="127.87" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="126" keyframe="0" outside="0" occluded="0" xtl="1283.92" ytl="100.10" xbr="1309.50" ybr="127.79" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="127" keyframe="0" outside="0" occluded="0" xtl="1283.85" ytl="100.10" xbr="1309.50" ybr="127.72" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="128" keyframe="0" outside="0" occluded="0" xtl="1283.78" ytl="100.10" xbr="1309.50" ybr="127.65" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="129" keyframe="0" outside="0" occluded="0" xtl="1283.72" ytl="100.10" xbr="1309.50" ybr="127.58" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="130" keyframe="0" outside="0" occluded="0" xtl="1283.65" ytl="100.10" xbr="1309.50" ybr="127.51" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="131" keyframe="0" outside="0" occluded="0" xtl="1283.58" ytl="100.10" xbr="1309.50" ybr="127.44" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="132" keyframe="0" outside="0" occluded="0" xtl="1283.51" ytl="100.10" xbr="1309.50" ybr="127.37" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="133" keyframe="0" outside="0" occluded="0" xtl="1283.45" ytl="100.10" xbr="1309.50" ybr="127.30" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="134" keyframe="0" outside="0" occluded="0" xtl="1283.38" ytl="100.10" xbr="1309.50" ybr="127.23" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="135" keyframe="0" outside="0" occluded="0" xtl="1283.31" ytl="100.10" xbr="1309.50" ybr="127.15" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="136" keyframe="0" outside="0" occluded="0" xtl="1283.24" ytl="100.10" xbr="1309.50" ybr="127.08" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="137" keyframe="0" outside="0" occluded="0" xtl="1283.18" ytl="100.10" xbr="1309.50" ybr="127.01" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="138" keyframe="0" outside="0" occluded="0" xtl="1283.11" ytl="100.10" xbr="1309.50" ybr="126.94" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="139" keyframe="0" outside="0" occluded="0" xtl="1283.04" ytl="100.10" xbr="1309.50" ybr="126.87" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="140" keyframe="0" outside="0" occluded="0" xtl="1282.97" ytl="100.10" xbr="1309.50" ybr="126.80" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="141" keyframe="0" outside="0" occluded="0" xtl="1282.91" ytl="100.10" xbr="1309.50" ybr="126.73" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="142" keyframe="0" outside="0" occluded="0" xtl="1282.84" ytl="100.10" xbr="1309.50" ybr="126.66" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="143" keyframe="0" outside="0" occluded="0" xtl="1282.77" ytl="100.10" xbr="1309.50" ybr="126.58" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="144" keyframe="0" outside="0" occluded="0" xtl="1282.70" ytl="100.10" xbr="1309.50" ybr="126.51" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="145" keyframe="0" outside="0" occluded="0" xtl="1282.64" ytl="100.10" xbr="1309.50" ybr="126.44" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="146" keyframe="0" outside="0" occluded="0" xtl="1282.57" ytl="100.10" xbr="1309.50" ybr="126.37" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="147" keyframe="1" outside="0" occluded="0" xtl="1282.50" ytl="100.10" xbr="1309.50" ybr="126.30" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="148" keyframe="1" outside="0" occluded="0" xtl="1279.70" ytl="98.10" xbr="1311.20" ybr="124.50" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="149" keyframe="0" outside="0" occluded="0" xtl="1279.70" ytl="100.10" xbr="1311.20" ybr="124.50" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+    <box frame="150" keyframe="1" outside="0" occluded="0" xtl="1279.70" ytl="102.10" xbr="1311.20" ybr="124.50" z_order="0">
+      <attribute name="Behavior">on_box</attribute>
+    </box>
+  </track>
+  <track id="4" label="Bird" source="manual">
+    <box frame="58" keyframe="1" outside="0" occluded="0" xtl="1223.94" ytl="144.74" xbr="1246.27" ybr="169.22" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="59" keyframe="0" outside="0" occluded="0" xtl="1225.32" ytl="144.74" xbr="1246.43" ybr="174.76" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="60" keyframe="1" outside="0" occluded="0" xtl="1226.70" ytl="144.74" xbr="1246.60" ybr="180.30" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="61" keyframe="0" outside="0" occluded="0" xtl="1226.92" ytl="144.74" xbr="1246.60" ybr="179.72" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="62" keyframe="0" outside="0" occluded="0" xtl="1227.14" ytl="144.74" xbr="1246.60" ybr="179.14" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="63" keyframe="0" outside="0" occluded="0" xtl="1227.36" ytl="144.74" xbr="1246.60" ybr="178.56" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="64" keyframe="0" outside="0" occluded="0" xtl="1227.58" ytl="144.74" xbr="1246.60" ybr="177.98" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="65" keyframe="1" outside="0" occluded="0" xtl="1227.80" ytl="144.74" xbr="1246.60" ybr="177.40" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="66" keyframe="0" outside="0" occluded="0" xtl="1228.02" ytl="144.74" xbr="1246.60" ybr="174.36" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="67" keyframe="0" outside="0" occluded="0" xtl="1228.24" ytl="144.74" xbr="1246.60" ybr="171.32" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="68" keyframe="0" outside="0" occluded="0" xtl="1228.46" ytl="144.74" xbr="1246.60" ybr="168.28" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="69" keyframe="0" outside="0" occluded="0" xtl="1228.68" ytl="144.74" xbr="1246.60" ybr="165.24" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="70" keyframe="1" outside="0" occluded="0" xtl="1228.90" ytl="144.74" xbr="1246.60" ybr="162.20" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="71" keyframe="1" outside="0" occluded="0" xtl="1228.90" ytl="144.74" xbr="1246.60" ybr="157.50" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="72" keyframe="0" outside="0" occluded="0" xtl="1229.55" ytl="143.43" xbr="1247.25" ybr="158.66" z_order="0">
+      <attribute name="Behavior">at_hole</attribute>
+    </box>
+    <box frame="73" keyframe="1" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="74" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="75" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="76" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="77" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="78" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="79" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="80" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="81" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="82" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="83" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="84" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="85" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="86" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="87" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="88" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="89" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="90" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="91" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="92" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="93" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="94" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="95" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="96" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="97" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="98" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="99" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="100" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="101" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="102" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="103" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="104" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="105" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="106" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="107" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="108" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="109" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="110" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="111" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="112" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="113" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="114" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="115" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="116" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="117" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="118" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="119" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="120" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="121" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="122" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="123" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="124" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="125" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="126" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="127" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="128" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="129" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="130" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="131" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="132" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="133" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="134" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="135" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="136" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="137" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="138" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="139" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="140" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="141" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="142" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="143" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="144" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="145" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="146" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="147" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="148" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="149" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+    <box frame="150" keyframe="0" outside="0" occluded="0" xtl="1230.21" ytl="142.12" xbr="1247.91" ybr="159.83" z_order="0">
+      <attribute name="Behavior">in_box</attribute>
+    </box>
+  </track>
+</annotations>
