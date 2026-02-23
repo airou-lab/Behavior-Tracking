@@ -1,0 +1,37 @@
+
+# Virtual environments
+
+venv/
+bird_env/
+env/
+
+
+# Python cache
+
+__pycache__/
+*.pyc
+*.pyo
+
+
+# YOLO / training outputs
+runs/
+*.pt
+*.pth
+
+
+# Large datasets & videos
+
+*.mp4
+*.avi
+*.mov
+*.zip
+
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
