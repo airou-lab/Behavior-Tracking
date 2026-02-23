@@ -1,36 +1,11 @@
 """
-Temporal Bird Behavior Model — v4
-===================================
-Training : reads CVAT XML annotations  (annotations/train/<clip>/annotations.xml)
-Inference: reads ByteTrack CSV tracks  (tracks/<clip>_tracks.csv)
-
-New in v4 over v3:
-  1. Multi-bird cross-attention (SocialContextLayer)
-     Each bird's temporal embedding attends to ALL other birds active in the
-     same frame. This lets the model learn:
-       - "two birds are competing at the same hole → one is at_hole, one on_box"
-       - "bird is isolated near a hole with no competition → likely entering"
-     At training time: built from CVAT XML (multiple tracks per clip)
-     At inference time: built from ByteTrack CSV (multiple track_ids per frame)
-
-  2. Social spatial features (3 extra dims per frame, 13-dim total):
-     [... existing 10 dims ..., n_nearby_birds, dist_to_nearest_bird_n, same_hole_n]
-     These give the cross-attention layer explicit social context to work with.
-
-Architecture:
-  Per-bird branch (unchanged from v3):
-    ViT-small/patch8 → fuse with spatial(13) → Temporal Transformer (causal)
-      ↓ per-bird temporal embedding (B, T, D)
-  Social branch (NEW):
-    SocialContextLayer: for each frame, cross-attend across all active birds
-      ↓ socially-aware per-bird embedding (B, T, D)
-  LayerNorm → head → per-frame logits (B, T, 3)
+Temporal Bird Behavior Model:
 
 Usage:
     python temporal_model_v4.py --mode train
     python temporal_model_v4.py --mode infer \\
-        --tracks_csv tracks/clip_01.csv \\
-        --frames_dir images/test/clip_01 \\
+        --tracks_csv tracks/clip1.csv \\
+        --frames_dir images/test/clip1 \\
         --weights    best_temporal_model_v4.pt \\
         --output     predictions/clip_01_behaviors.csv
 """
@@ -57,11 +32,6 @@ from sklearn.metrics import (
     accuracy_score, f1_score
 )
 
-
-# =========================================================================
-# Config
-# =========================================================================
-
 BEHAVIOR_MAP     = {"on_box": 0, "at_hole": 1, "in_box": 2}
 INV_BEHAVIOR_MAP = {v: k for k, v in BEHAVIOR_MAP.items()}
 
@@ -77,10 +47,6 @@ NEARBY_THRESH = 0.15   # ~15% of image width — roughly 2-3 box widths apart
 MAX_BIRDS = 8
 
 
-# =========================================================================
-# Shared dataclass
-# =========================================================================
-
 @dataclass
 class FrameAnn:
     frame:      int
@@ -90,10 +56,6 @@ class FrameAnn:
     confidence: float = 1.0
     track_id:   int   = -1    # needed for multi-bird grouping
 
-
-# =========================================================================
-# FOCAL LOSS (unchanged from v3)
-# =========================================================================
 
 class FocalLoss(nn.Module):
     def __init__(self, gamma: float = 2.0, alpha: Optional[torch.Tensor] = None,
@@ -119,28 +81,8 @@ class FocalLoss(nn.Module):
             loss = self.alpha[targets] * loss
         return loss.mean()
 
-
-# =========================================================================
-# SOCIAL CONTEXT LAYER  (NEW)
-# =========================================================================
-
 class SocialContextLayer(nn.Module):
-    """
-    Cross-attention layer that lets each bird attend to all other birds
-    active in the same frame.
-
-    Input:  embeddings of shape (N_birds, T, D)
-            where N_birds can vary per batch — handled via padding + mask
-    Output: socially-enriched embeddings (N_birds, T, D)
-
-    For each timestep t:
-      - Each bird i queries: "what are all the other birds doing right now?"
-      - Keys/values come from all other birds' embeddings at time t
-      - Masked so a bird doesn't attend to padding slots
-
-    This is lightweight — it runs AFTER the temporal transformer, so it
-    only needs to process D-dim embeddings, not raw image features.
-    """
+   
     def __init__(self, embed_dim: int = 384, nhead: int = 4, dropout: float = 0.1):
         super().__init__()
         self.cross_attn = nn.MultiheadAttention(
@@ -182,30 +124,7 @@ class SocialContextLayer(nn.Module):
 
         return out   # (N_birds, T, D)
 
-
-# =========================================================================
-# MODEL
-# =========================================================================
-
 class TemporalBehaviorModel(nn.Module):
-    """
-    v4 architecture:
-
-    Per-bird branch:
-      ViT-small/patch8 (frozen except last N blocks)
-        ↓ visual embedding per frame (D=384)
-      Fuse with 13-dim spatial features (includes social context dims)
-        ↓ fused embedding (D)
-      Temporal Transformer (causal mask) — models each bird's own trajectory
-        ↓ per-bird temporal embedding (D)
-
-    Social branch (NEW):
-      SocialContextLayer — cross-attention across all birds in same frame
-        ↓ socially-aware embedding (D)
-
-    Head:
-      LayerNorm → Linear → (T, 3) logits per bird
-    """
     def __init__(
         self,
         num_classes:            int   = 3,
@@ -249,7 +168,7 @@ class TemporalBehaviorModel(nn.Module):
         )
         self.temporal = nn.TransformerEncoder(enc_layer, num_layers=temporal_layers)
 
-        # Social context layer — cross-attention across birds
+        # Social context layer - cross-attention across birds
         self.social = SocialContextLayer(embed_dim=embed_dim, nhead=social_nhead, dropout=dropout)
 
         self.pre_head_norm = nn.LayerNorm(embed_dim)
@@ -264,10 +183,7 @@ class TemporalBehaviorModel(nn.Module):
         x: torch.Tensor,             # (B, T, C, H, W)
         spatial_feats: torch.Tensor, # (B, T, 13)
     ) -> torch.Tensor:
-        """
-        Per-bird temporal branch (same as v3 forward).
-        Returns per-bird temporal embeddings (B, T, D).
-        """
+        
         B, T, C, H, W = x.shape
         feat  = self.backbone(x.view(B * T, C, H, W))          # (B*T, D)
         sf    = spatial_feats.view(B * T, -1)                   # (B*T, 13)
@@ -284,14 +200,6 @@ class TemporalBehaviorModel(nn.Module):
         multi_bird_mode: bool = False,
         bird_padding_mask: Optional[torch.Tensor] = None,  # (B,) True=padding bird slot
     ) -> torch.Tensor:
-        """
-        Standard forward (training, single-bird batch).
-        multi_bird_mode=False: B independent bird windows, no social attention.
-        multi_bird_mode=True:  B = N_birds in a frame-group; social attention applied.
-
-        Training uses multi_bird_mode=True when multiple birds are in the same clip.
-        Inference uses multi_bird_mode=True always (all active tracks per frame).
-        """
         z = self.forward_single_bird(x, spatial_feats)   # (B, T, D)
 
         if multi_bird_mode and z.size(0) > 1:
@@ -299,11 +207,6 @@ class TemporalBehaviorModel(nn.Module):
             z = self.social(z, key_padding_mask=bird_padding_mask)   # (B, T, D)
 
         return self.head(self.pre_head_norm(z))   # (B, T, K)
-
-
-# =========================================================================
-# SPATIAL FEATURE BUILDER  (extended to 13 dims)
-# =========================================================================
 
 def build_spatial_feats(
     bboxes:         List[Tuple[float, float, float, float]],
@@ -315,14 +218,7 @@ def build_spatial_feats(
     # other_centers[t] = list of (cx_n, cy_n) for all OTHER birds at frame t
     other_centers:  Optional[List[List[Tuple[float, float]]]] = None,
 ) -> torch.Tensor:
-    """
-    Builds (T, 13) spatial feature tensor.
-
-    Dims 0-9:  unchanged from v3
-    Dim 10: n_nearby_birds_n  — number of other birds within NEARBY_THRESH, normalised by MAX_BIRDS
-    Dim 11: dist_nearest_n    — distance to nearest other bird, normalised by image diagonal
-    Dim 12: same_hole_zone_n  — 1.0 if nearest bird is also within NEARBY_THRESH of same hole area
-    """
+    
     diag  = float(np.hypot(img_W, img_H)) + 1e-6
     feats = []
 
@@ -373,12 +269,6 @@ def build_spatial_feats(
 
     return torch.tensor(feats, dtype=torch.float32)   # (T, 13)
 
-
-# =========================================================================
-# MULTI-BIRD FRAME GROUP BUILDER
-# Shared utility: groups all tracks by frame for social context computation
-# =========================================================================
-
 def build_frame_index(
     all_tracks: Dict[int, List[FrameAnn]],
     img_W: float,
@@ -395,23 +285,8 @@ def build_frame_index(
             cy_n = ((y1 + y2) / 2.0) / img_H
             frame_index[ann.frame].append((tid, cx_n, cy_n))
     return frame_index
-
-
-# =========================================================================
-# TRAINING DATASET  —  reads CVAT XML, builds multi-bird groups
-# =========================================================================
-
+  
 class CVATTemporalCropDataset(Dataset):
-    """
-    Extended for v4: passes other_centers (social context) to build_spatial_feats.
-    Each sample still represents ONE bird's window, but spatial features now
-    include information about other birds present in the same frames.
-
-    The SocialContextLayer at training time receives a padded batch of ALL birds
-    from the same clip, grouped in MultiTrackBatchSampler (see train loop).
-    For simplicity, if you don't use the multi-bird grouping sampler, the model
-    still trains correctly — the social dims in spatial feats already carry context.
-    """
     def __init__(
         self,
         xml_root:           str,
@@ -573,12 +448,6 @@ class CVATTemporalCropDataset(Dataset):
             spatial,                         # (T, 13)
             torch.tensor(labels).long(),     # (T,)
         )
-
-
-# =========================================================================
-# INFERENCE DATASET  —  reads ByteTrack CSV
-# =========================================================================
-
 class ByteTrackInferenceDataset(Dataset):
     """
     Reads ByteTrack CSV. Builds per-track windows with social context
@@ -692,12 +561,6 @@ class ByteTrackInferenceDataset(Dataset):
             torch.tensor(frames).long(), # (T,)
             tid,
         )
-
-
-# =========================================================================
-# EVALUATION
-# =========================================================================
-
 def evaluate(model, loader, device):
     model.eval()
     all_preds, all_labels = [], []
@@ -731,10 +594,7 @@ def evaluate(model, loader, device):
 
     return acc, macro_f1
 
-
-# =========================================================================
 # TRAINING
-# =========================================================================
 
 def train_one_epoch(model, loader, optimizer, device, loss_fn):
     model.train()
@@ -769,11 +629,6 @@ def build_optimizer(model, lr_head=1e-4, lr_backbone=1e-5):
         weight_decay=1e-4,
     )
 
-
-# =========================================================================
-# MAJORITY-VOTE SMOOTHING
-# =========================================================================
-
 def smooth_predictions(
     predictions: Dict[int, Dict[int, List[int]]],
     window: int = 5,
@@ -789,33 +644,16 @@ def smooth_predictions(
             smoothed[tid][f] = int(np.bincount(votes, minlength=3).argmax()) if votes else frame_preds[f][0]
     return smoothed
 
-
-# =========================================================================
-# INFERENCE
-# =========================================================================
-
 def run_inference(model, dataset, device, output_csv: str, smooth_window: int = 5):
-    """
-    Inference with multi_bird_mode=True — all active tracks in a frame
-    attend to each other via the SocialContextLayer.
-
-    Groups windows by their center frame, runs social attention across
-    all birds active at the same time.
-    """
     model.eval()
     raw_preds: Dict[int, Dict[int, List[int]]] = defaultdict(lambda: defaultdict(list))
 
     loader = DataLoader(dataset, batch_size=1, shuffle=False, num_workers=2,
                         collate_fn=_inference_collate)
 
-    # Group by frame range for social attention
-    # For simplicity: process each window individually but with social dims
-    # already encoded in spatial features (dims 10-12)
     with torch.no_grad():
         for x, s, frame_indices, track_ids in loader:
             x, s = x.to(device), s.to(device)
-            # batch_size=1 at inference — multi_bird_mode requires grouping
-            # multiple birds, handled via social spatial features
             logits = model(x, s, multi_bird_mode=False)
             preds  = torch.argmax(logits, dim=-1).cpu()
 
@@ -851,11 +689,6 @@ def _inference_collate(batch):
     frame_idxs = torch.stack([b[2] for b in batch])
     track_ids  = [b[3] for b in batch]
     return imgs, spatial, frame_idxs, track_ids
-
-
-# =========================================================================
-# MAIN
-# =========================================================================
 
 def main():
     parser = argparse.ArgumentParser()
