@@ -1,6 +1,5 @@
 """
-ROI Annotation Tool — Bird Box Entrance Marker
-===============================================
+ROI Annotation Tool:
 Usage:
     python annotate_rois.py --frame path/to/frame_00001.jpg --output hole_rois.json
 
@@ -13,7 +12,7 @@ Controls:
     'q' or Escape       → quit without saving
     'z'                 → undo last marker
 
-What gets saved (hole_rois.json):
+hole_rois.json:
     A list of dicts, one per hole:
     {
         "id": 0,
