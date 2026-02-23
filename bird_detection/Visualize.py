@@ -1,32 +1,11 @@
 """
-Behavior Visualization Script
-==============================
-Draws detection bounding boxes and behavior labels on each frame
-from a test clip, using:
-  - ByteTrack CSV  (bboxes + track IDs)
-  - Predictions CSV (behavior labels from temporal model)
-
-Output: annotated frames saved to an output directory, plus an optional
-        summary video assembled from those frames.
-
 Usage:
-    python visualize_behaviors.py \
-        --frames      images/test/clip_01 \
-        --tracks_csv  tracks/clip_01.csv \
+    python Visualize.py \
+        --frames      images/test/clip1 \
+        --tracks_csv  tracks/clip1.csv \
         --preds_csv   predictions/clip_01_behaviors.csv \
         --output_dir  visualizations/clip_01 \
         --video       visualizations/clip_01.mp4
-
-What gets drawn on each frame:
-    - Bounding box per bird, color-coded by behavior:
-        on_box  → green
-        at_hole → orange
-        in_box  → red  (dashed box — bird is occluded/inside)
-    - Behavior label above the box
-    - Track ID inside the box
-    - Frame number in top-left corner
-    - Behavior legend in top-right corner
-    - Per-behavior frame count in bottom bar
 """
 
 import cv2
@@ -36,11 +15,6 @@ import argparse
 import numpy as np
 from collections import defaultdict
 from typing import Dict, Tuple, Optional
-
-
-# =========================================================================
-# Config
-# =========================================================================
 
 BEHAVIOR_COLORS = {
     "on_box":  (34,  197,  94),   # green
@@ -54,11 +28,6 @@ INV_BEHAVIOR_MAP = {v: k for k, v in BEHAVIOR_MAP.items()}
 FONT       = cv2.FONT_HERSHEY_SIMPLEX
 FONT_SCALE = 0.55
 THICKNESS  = 2
-
-
-# =========================================================================
-# Drawing helpers
-# =========================================================================
 
 def draw_solid_box(frame, x1, y1, x2, y2, color, thickness=2):
     cv2.rectangle(frame, (x1, y1), (x2, y2), color, thickness)
@@ -169,11 +138,6 @@ def annotate_frame(
     draw_bottom_bar(frame, counts)
 
     return frame
-
-
-# =========================================================================
-# Main pipeline
-# =========================================================================
 
 def load_tracks_csv(tracks_csv: str) -> Dict[int, Dict[int, Tuple]]:
     """
@@ -289,11 +253,6 @@ def run_visualization(
 
     if video_path and os.path.exists(video_path):
         print(f"Video saved: {video_path}")
-
-
-# =========================================================================
-# Entry point
-# =========================================================================
 
 def main():
     parser = argparse.ArgumentParser(
